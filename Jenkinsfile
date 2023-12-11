@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git 'https://github.com/oumayma/devops-project.git'
+                git 'https://github.com/oumayma/devops-project'
             }
         }
         stage('Build') {
